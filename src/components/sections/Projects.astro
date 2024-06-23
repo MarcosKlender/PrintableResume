@@ -1,0 +1,52 @@
+---
+import { getLangFromUrl, useTranslations } from "@/i18n/utils";
+import GitHub from "@/icons/github.astro"
+
+import type { CollectionEntry } from 'astro:content';
+
+type Props = {
+  projects: CollectionEntry<'cv'>['data']['projects']
+}
+
+const { projects } = Astro.props;
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
+
+<ul class="grid gap-4 -mx-4 [grid-template-columns:_repeat(auto-fit,_minmax(200px,_1fr))]">
+  {
+    projects.map(
+      ({ url, description, highlights, name, isActive, github }) => (
+        <li>
+          <article class="rounded-lg border-primary-50 md:border md:border-solid gap-4 flex flex-col p-2.5 md:p-4 h-full shadow-sm shadow-primary-50 md:shadow-none print:break-inside-avoid">
+            <header class="flex-1">
+              <h3 class="text-lg font-bold md:mb-1 inline-flex place-items-center gap-1 flex-wrap">
+                {url ? 
+                  <a class="hover:underline shrink-0" href={url} target="_blank" title={t('see.project', { name })}>
+                    {name}
+                  </a>
+                  : name
+                }
+                {isActive && <span class="print:animate-none text-accent animate-flicker">•</span>}
+                {github && (
+                  <a
+                    class="ml-1.5 hover:opacity-60 text-primary-900"
+                    href={github}
+                    target="_blank"
+                    title={t('see.source', { name })}
+                  >
+                    <GitHub width={16} />
+                  </a>
+                )}
+              </h3>
+              <p class="mb-1 text-xs text-primary-400 text-pretty">{description}</p>
+            </header>
+            <footer class="flex flex-wrap gap-1">
+              {highlights.map((highlight) => <span class="rounded-md py-1 px-2 [font-size:_0.68rem] leading-none bg-primary-100 text-primary-600">{highlight}</span>)}
+            </footer>
+          </article>
+        </li>
+      )
+    )
+  }
+</ul>

@@ -1,0 +1,198 @@
+{
+  "basics": {
+    "name": "Marcos Klender Carrasco ESPAÑOL",
+    "label": "Full-Stack web developer and mobile iOS developer with more than 7 years of experience.",
+    "image": "/me.webp",
+    "email": "marcosklender@gmail.com",
+    "phone": "+593 0980199488",
+    "url": "https://marcosklender.com",
+    "summary": "With over 7 years of experience as a web and mobile iOS developer, I have a proven track record of delivering robust technology solutions. I specialize in creating secure, user-friendly web applications and mobile apps, ensuring seamless functionality and enhanced user experiences. Passionate about continuous learning, I stay updated with the latest industry trends to provide innovative and effective solutions.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Santo Domingo",
+      "countryCode": "EC",
+      "region": "Ecuador"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "marcosklender",
+        "url": "https://linkedin.com/in/marcosklender"
+      },
+      {
+        "network": "GitHub",
+        "username": "marcosklender",
+        "url": "https://github.com/marcosklender"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Consejo Nacional Electoral del Ecuador",
+      "position": "IT Security Analyst & Developer",
+      "url": "https://www.cne.gob.ec/",
+      "startDate": "2019-11-01",
+      "endDate": null,
+      "summary": "Updated the voter database for reliable reporting and assisted with electronic voting implementation. Managed the provincial ICT department, ensuring proper infrastructure. Trained staff in software management and supported election workers remotely via Zoom and Google Meet. Led the reception and deployment of election materials and organized teams to gather information for new electoral precincts in rural areas.",
+      "highlights": [""]
+    },
+    {
+      "name": "iLinser",
+      "position": "Full-Stack Developer",
+      "url": "https://ilinser.com",
+      "startDate": "2020-01-01",
+      "endDate": "2024-06-01",
+      "summary": "Co-founded a micro-company with two engineers to provide corporate technology solutions in operating systems administration, web development, and consulting. Designed and developed websites and online stores, gathering client requirements to meet their needs. Managed web maintenance and developed add-on modules to significantly enhance user experience, resulting in a 90% increase in monthly sales.",
+      "highlights": [""]
+    },
+    {
+      "name": "Chery Ecuador",
+      "position": "Web Developer",
+      "url": "https://www.chery.com.ec",
+      "startDate": "2019-04-01",
+      "endDate": "2019-10-01",
+      "summary": "Developed a robust electronic documentation control system using Laravel, enabling secure customer access to downloadable PDF and XML documents. Implemented automated customer generation upon new sales, ensuring immediate and secure document access. Designed and scheduled daily backup tasks, maintaining system integrity by retaining essential records and deleting backups older than one month.",
+      "highlights": [""]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad Internacional de la Rioja (UNIR)",
+      "url": "https://www.unirioja.es/",
+      "area": "Master's Degree in Software Engineering and IT Systems.",
+      "studyType": "Bachelor",
+      "startDate": "2024-01-02",
+      "endDate": "2025-12-31"
+    },
+    {
+      "institution": "Pontificia Universidad Católica del Ecuador",
+      "url": "https://www.puce.edu.ec/",
+      "area": "Systems and Computer Engineer.",
+      "studyType": "Bachelor",
+      "startDate": "2014-01-02",
+      "endDate": "2018-12-31"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "",
+      "date": "",
+      "issuer": "",
+      "url": ""
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Master",
+      "keywords": [""]
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "keywords": [""]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": [""]
+    },
+    {
+      "name": "PHP",
+      "level": "Advanced",
+      "keywords": [""]
+    },
+    {
+      "name": "Python",
+      "level": "Intermediate",
+      "keywords": [""]
+    },
+    {
+      "name": "Node",
+      "level": "Intermediate",
+      "keywords": [""]
+    },
+    {
+      "name": "SQL",
+      "level": "Advanced",
+      "keywords": [""]
+    },
+    {
+      "name": "Git",
+      "level": "Advanced",
+      "keywords": [""]
+    },
+    {
+      "name": "GitHub",
+      "level": "Advanced",
+      "keywords": [""]
+    },
+    {
+      "name": "Figma",
+      "level": "Intermediate",
+      "keywords": [""]
+    },
+    {
+      "name": "Swift",
+      "level": "Advanced",
+      "keywords": [""]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Advanced",
+      "keywords": [""]
+    },
+    {
+      "name": "AlpineJS",
+      "level": "Intermediate",
+      "keywords": [""]
+    },
+    {
+      "name": "Laravel",
+      "level": "Advanced",
+      "keywords": [""]
+    },
+    {
+      "name": "Livewire",
+      "level": "Intermediate",
+      "keywords": [""]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "projects": [
+    {
+      "name": "SafeKeeperApp",
+      "isActive": true,
+      "description": "Equipment and goods managment for the IT department.",
+      "highlights": ["TALL Stack", "Tailwind", "AlpineJS", "Laravel", "Livewire"],
+      "url": "",
+      "github": "https://github.com/MarcosKlender/SafeKeeperApp"
+    },
+    {
+      "name": "RegistroMJRV",
+      "isActive": true,
+      "description": "Web app for the tracking and registration of +8600 people.",
+      "highlights": ["Laravel", "Tailwind", "JavaScript", "SQL"],
+      "url": "",
+      "github": "https://github.com/MarcosKlender/RegistroMJRV"
+    },
+    {
+      "name": "Larapark",
+      "isActive": false,
+      "description": "Free web application for parking lot management.",
+      "highlights": ["Laravel", "Tailwind", "JavaScript", "SQL"],
+      "url": "",
+      "github": "https://github.com/MarcosKlender/Larapark"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+---
+import { getLangFromUrl, useTranslations } from '@/i18n/utils';
+import type { CollectionEntry } from 'astro:content';
+
+type Props = {
+  education: CollectionEntry<'cv'>['data']['education']
+}
+
+const { education } = Astro.props
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
+
+<ul class="flex gap-8 flex-col">
+  {
+    education.map(({ institution, startDate, endDate, area }) => {
+      const startYear = new Date(startDate).getFullYear()
+      const endYear =
+        endDate != null ? new Date(endDate).getFullYear() : t('common.present')
+      const years = `${startYear} - ${endYear}`
+
+      return (
+        <li>
+          <article class="print:break-inside-avoid">
+            <header class="flex justify-between items-start mb-1">
+              <div>
+                <h3 class="text-lg font-medium text-primary-900">{institution}</h3>
+              </div>
+
+              <time class="text-right min-w-28 text-sm text-primary-500">{years}</time>
+            </header>
+
+            <footer>
+              <p class="text-sm text-primary-400 text-pretty">{area}</p>
+            </footer>
+          </article>
+        </li>
+      )
+    })
+  }
+</ul>

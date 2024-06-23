@@ -1,0 +1,58 @@
+---
+import HTML from "@/icons/html.astro"
+import CSS from "@/icons/css.astro"
+import JavaScript from "@/icons/javascript.astro"
+import Swift from "@/icons/swift.astro"
+import Node from "@/icons/node.astro"
+import SQL from "@/icons/sql.astro"
+import Git from "@/icons/git.astro"
+import GitHub from "@/icons/github.astro"
+import Tailwind from "@/icons/tailwind.astro"
+import Laravel from "@/icons/laravel.astro"
+import PHP from "@/icons/php.astro"
+import Python from "@/icons/python.astro"
+import Figma from "@/icons/figma.astro"
+import AlpineJS from "@/icons/alpinejs.astro"
+import Livewire from "@/icons/livewire.astro"
+
+import type { CollectionEntry } from 'astro:content';
+
+type Props = {
+  skills: CollectionEntry<'cv'>['data']['skills']
+}
+
+const { skills } = Astro.props
+
+const SKILLS_ICONS: Record<string, any> = {
+  HTML,
+  CSS,
+  JavaScript,
+  Swift,
+  Node,
+  SQL,
+  Git,
+  GitHub,
+  Tailwind,
+  Laravel,
+  PHP,
+  Python,
+  Figma,
+  AlpineJS,
+  Livewire,
+}
+---
+
+<ul class="inline-flex gap-2 flex-wrap">
+  {
+    skills.map(({ name }) => {
+      const iconName = name === "Next.js" ? "Next" : name
+      const Icon = SKILLS_ICONS[iconName]
+
+      return (
+        <li class="items-center rounded-md flex gap-1 py-1 px-2 text-sm leading-none bg-primary-100 text-black">
+          {Icon && <Icon width={16} />} <span>{name}</span>
+        </li>
+      )
+    })
+  }
+</ul>

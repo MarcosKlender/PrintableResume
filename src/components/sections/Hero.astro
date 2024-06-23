@@ -1,0 +1,76 @@
+---
+import Mail from "@/icons/mail.astro"
+import Phone from "@/icons/phone.astro"
+import X from "@/icons/x.astro"
+import LinkedIn from "@/icons/linkedin.astro"
+import GitHub from "@/icons/github.astro"
+import WorldMap from "@/icons/worldmap.astro"
+import type { SocialIcon } from "@/types"
+
+import type { CollectionEntry } from 'astro:content';
+import { getLangFromUrl, useTranslations } from "@/i18n/utils"
+
+type Props = {
+  basics: CollectionEntry<'cv'>['data']['basics'],
+}
+
+const { name, label, image, location, profiles, phone, email } = Astro.props.basics
+const { city, region } = location
+
+const SOCIAL_ICONS: SocialIcon = {
+  GitHub,
+  LinkedIn,
+  X,
+  Mail,
+  Phone
+}
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+
+const linkedInfo = profiles.find(({ network }) => network === "LinkedIn")
+const linkedUrl = linkedInfo?.url
+
+const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
+const links = [
+  ... email && [{ href: `mailto:${email}`, title: t("see.email", { name, email }), icon: "Mail" }] || [],
+  ... phone && [{ href: `tel:${phone}`, title: t("see.phone", { name, phone }), icon: "Phone" }] || [],
+  ... profiles.map(({ network, url }) => ({ href: url, title: t("see.network", { name, network }), icon: network })),
+]
+---
+
+<div class="flex-col-reverse flex md:flex-row items-center justify-between gap-4">
+  <div class="justify-center items-center text-center md:items-start md:text-left flex flex-col gap-2 md:pr-8">
+    <h1 class="font-bold text-4xl">{name}</h1>
+    <h2 class="text-balance font-medium text-lg leading-6 text-primary-600">{label}</h2>
+    <span class="flex items-center gap-1 text-primary-400 text-sm tracking-tighter">
+      <WorldMap width={12} />
+      {city}, {region}
+    </span>
+    <footer class="gap-1 mt-2 text-primary-500 text-xs print:flex hidden">
+      {printInfo}
+    </footer>
+    <footer class="print:hidden flex gap-1 mt-2">
+      {
+        links.map(({ href, title, icon }) => {
+          const Icon = SOCIAL_ICONS[icon];
+
+          return (
+            <a
+              class="inline-flex items-center justify-center p-1 w-8 h-8 rounded-lg text-primary-300 hover:bg-primary-100 border border-solid border-primary-100 hover:border-primary-200"
+              href={href}
+              title={title}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Icon width={16} />
+            </a>
+          )
+        })
+      }
+    </footer>
+  </div>
+  <figure class="flex-shrink-0">
+    <img class="aspect-square object-cover rounded-2xl" src={image} alt={name} width="128" height="128" />
+  </figure>
+</div>

@@ -1,0 +1,11 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+type Props = {
+  summary: CollectionEntry<'cv'>['data']['basics']['summary']
+}
+
+const { summary } = Astro.props
+---
+
+<p class="text-sm text-primary-400 text-pretty">{summary}</p>
