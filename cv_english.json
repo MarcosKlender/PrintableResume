@@ -1,16 +1,16 @@
 {
   "basics": {
     "name": "Marcos Klender Carrasco",
-    "label": "Full Stack developer with more than 7 years of experience. Systems and Computer Engineer.",
+    "label": "Full Stack developer with +7 years of experience.",
     "image": "/me.webp",
     "email": "marcosklender@gmail.com",
     "phone": "https://wa.me/5930980199488",
     "url": "https://marcosklender.com",
-    "summary": "+7 years of experience as a web developer. Currently I am a content creator and development dommunicator. I live in Barcelona, Spain. I have worked in different environments: from accelerating the development of start-ups to leading teams in multinational companies.",
+    "summary": "Versatile software engineer with more than 7 years of experience, including mobile development, front-end and back-end web development, and database management. Committed to delivering high-quality and customized solutions. Driven by a positive attitude, strong work ethic, and professional integrity.",
     "location": {
       "address": "",
       "postalCode": "230109",
-      "city": "SITE IN DEVELOPMENT",
+      "city": "Santo Domingo",
       "countryCode": "EC",
       "region": "Ecuador"
     },
@@ -29,12 +29,12 @@
   },
   "work": [
     {
-      "name": "Consejo Nacional Electoral del Ecuador",
+      "name": "Consejo Nacional Electoral",
       "position": "IT Security Analyst",
       "url": "https://cne.gob.ec",
       "startDate": "2019-01-02",
       "endDate": null,
-      "summary": "Most watched development streamer in Spanish on Twitch. +1 million followers across all my social networks. Recognised by Google, Microsoft and GitHub for my impact on the development community."
+      "summary": "Experienced IT professional with a proven track record of managing technology infrastructure and supporting mission-critical operations. Skilled in providing technical guidance, training, and remote assistance to staff. Committed to ensuring the reliable functioning of technology systems and enabling efficient workflows."
     },
     {
       "name": "iLinser",
@@ -42,14 +42,14 @@
       "url": "https://ilinser.com",
       "startDate": "2020-01-02",
       "endDate": "2024-12-30",
-      "summary": "I led a technical convergence between different products and migrated from a monolithic architecture to a more flexible and optimised one. I fostered best practices and performance culture improvements, as well as rapid delivery of value to users."
+      "summary": "Accomplished software engineer and entrepreneur with extensive experience in web development, operating systems administration, and consulting. Co-founded this micro-company providing technology solutions and successfully grew the business through innovative web development and user experience improvements."
     },
     {
       "name": "Chery Ecuador",
       "position": "Full Stack Developer",
       "startDate": "2019-01-02",
       "endDate": "2019-12-30",
-      "summary": "I developed a geolocated news platform and an API to consume the information. Scaled services to support the load of over hundreds of thousands of requests per day. Cut delivery times and deployments to production by half. Collaborated with Mozilla and Telefónica to develop the first FirefoxOS TV app."
+      "summary": "Experienced software developer with a track record of delivering innovative solutions to improve business operations. Skilled in web application development, process automation, and data management. Committed to driving efficiency and enhancing the customer experience through the application of technology."
     }
   ],
   "volunteer": [
@@ -63,6 +63,14 @@
     }
   ],
   "education": [
+    {
+      "institution": "Universidad Internacional de La Rioja (UNIR)",
+      "url": "https://www.unir.net",
+      "area": "Master's Degree in Software Engineering and IT Systems",
+      "studyType": "Master",
+      "startDate": "2024-01-02",
+      "endDate": "2025-12-30"
+    },
     {
       "institution": "Pontificia Universidad Católica del Ecuador (PUCE)",
       "url": "https://www.puce.edu.ec",
@@ -160,7 +168,7 @@
     {
       "name": "AstroLinkHub",
       "isActive": true,
-      "description": "Playground of HTML, CSS and JavaScript code for sharing",
+      "description": "Open source links page, customizable via JSON.",
       "highlights": [
         "Open-Source",
         "Astro"
@@ -171,7 +179,7 @@
     {
       "name": "JSONLinks",
       "isActive": true,
-      "description": "List of technical tests of companies to practice programming",
+      "description": "A repository where you will find easy to implement links pages that fit your needs.",
       "highlights": [
         "Open-Source",
         "Astro"
@@ -182,7 +190,7 @@
     {
       "name": "Larapark",
       "isActive": false,
-      "description": "Streaming programming conference for the Spanish-speaking community with top talks",
+      "description": "Free software for a properly parking lot management.",
       "highlights": [
         "Open-Source",
         "Laravel"

@@ -11,7 +11,7 @@ import { work } from "@cv"
         ({ name, startDate, endDate, position, summary, url }) => {
           const startYear = new Date(startDate).getFullYear()
           const endYear =
-            endDate != null ? new Date(endDate).getFullYear() : "Current"
+            endDate != null ? new Date(endDate).getFullYear() : "Today"
 
           return (
             <li>
