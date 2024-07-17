@@ -200,32 +200,32 @@
       "isActive": true,
       "description": "Playground of HTML, CSS and JavaScript code for sharing",
       "highlights": [
-        "100k monthly visit",
-        "Developed by the community"
+        "Open-Source",
+        "Astro"
       ],
       "url": "https://astrolinkhub.netlify.app",
-      "github": "https://github.com/midudev/codi.link"
+      "github": "https://github.com/MarcosKlender/AstroLinkHub"
     },
     {
       "name": "JSONLinks",
       "isActive": true,
       "description": "List of technical tests of companies to practice programming",
       "highlights": [
-        "100% free",
-        "+500 community solutions"
+        "Open-Source",
+        "Astro"
       ],
       "url": "https://jsonlinks.netlify.app",
-      "github": "https://github.com/midudev/pruebas-tecnicas"
+      "github": "https://github.com/MarcosKlender/JSONLinks"
     },
     {
       "name": "Larapark",
       "description": "Streaming programming conference for the Spanish-speaking community with top talks",
       "highlights": [
-        "+15k tickets handed over",
-        "+50k live viewers"
+        "Open-Source",
+        "Laravel"
       ],
-      "url": "https://jsonlinks.netlify.app",
-      "github": "https://github.com/midudev/pruebas-tecnicas"
+      "url": "https://github.com/MarcosKlender/Larapark",
+      "github": "https://github.com/MarcosKlender/Larapark"
     }
   ]
 }
