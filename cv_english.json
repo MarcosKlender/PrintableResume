@@ -3,10 +3,10 @@
     "name": "Marcos Klender Carrasco",
     "label": "Full-Stack developer with more than 7 years of experience. Systems and Computer Engineer.",
     "image": "/me.webp",
-    "email": "miduga@gmail.com",
-    "phone": "+34 688888888",
-    "url": "https://midu.dev",
-    "summary": "+15 years of experience as a web developer. Currently I am a content creator and development dommunicator. I live in Barcelona, Spain. I have worked in different environments: from accelerating the development of start-ups to leading teams in multinational companies.",
+    "email": "marcosklender@gmail.com",
+    "phone": "+593 0980199488",
+    "url": "https://marcosklender.com",
+    "summary": "+7 years of experience as a web developer. Currently I am a content creator and development dommunicator. I live in Barcelona, Spain. I have worked in different environments: from accelerating the development of start-ups to leading teams in multinational companies.",
     "location": {
       "address": "",
       "postalCode": "230109",
@@ -17,18 +17,13 @@
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "midudev",
-        "url": "https://linkedin.com/in/midudev"
-      },
-      {
-        "network": "X",
-        "username": "midudev",
-        "url": "https://x.com/midudev"
+        "username": "marcosklender",
+        "url": "https://linkedin.com/in/marcosklender"
       },
       {
         "network": "GitHub",
-        "username": "midudev",
-        "url": "https://github.com/midudev"
+        "username": "marcosklender",
+        "url": "https://github.com/marcosklender"
       }
     ]
   },
@@ -69,15 +64,15 @@
     ]
   }],
   "education": [{
-    "institution": "Universitat Oberta de Catalunya",
-    "url": "https://www.uoc.edu/portal/es/index.html",
-    "area": "Software Engineer",
+    "institution": "Pontificia Universidad Católica del Ecuador (PUCE)",
+    "url": "https://www.puce.edu.ec",
+    "area": "Systems and Computer Engineer",
     "studyType": "Bachelor",
-    "startDate": "2003-01-01",
-    "endDate": "2009-01-01",
-    "score": "4.0",
+    "startDate": "2014-01-02",
+    "endDate": "2018-12-30",
+    "score": "9.5",
     "courses": [
-      "DB1101 - Basic SQL"
+      ""
     ]
   }],
   "awards": [{
@@ -201,66 +196,36 @@
   }],
   "projects": [
     {
-      "name": "mars.codes",
-      "isActive": true,
-      "description": "Interactive story with programming challenges to travel to Mars",
-      "highlights": [
-        "Choose your own adventure",
-        "In progress"
-      ],
-      "url": "https://mars.codes"
-    },
-    {
-      "name": "AdventJS",
-      "isActive": true,
-      "description": "JavaScript programming challenges for every day of December until Christmas",
-      "highlights": [
-        "+1 million visits",
-        "Multilanguage",
-        "JavaScript & TypeScript"
-      ],
-      "url": "https://advent.js/dev"
-    },
-    {
-      "name": "Codember",
-      "isActive": true,
-      "description": "Interactive programming game with challenges and secrets",
-      "highlights": [
-        "+2000 active users",
-        "Challenges for any language"
-      ],
-      "url": "https://codember.dev"
-    },
-    {
-      "name": "codi.link",
+      "name": "AstroLinkHub",
       "isActive": true,
       "description": "Playground of HTML, CSS and JavaScript code for sharing",
       "highlights": [
         "100k monthly visit",
         "Developed by the community"
       ],
-      "url": "https://codi.link",
+      "url": "https://astrolinkhub.netlify.app",
       "github": "https://github.com/midudev/codi.link"
     },
     {
-      "name": "Pruebas Técnicas",
+      "name": "JSONLinks",
       "isActive": true,
       "description": "List of technical tests of companies to practice programming",
       "highlights": [
         "100% free",
         "+500 community solutions"
       ],
-      "url": "https://pruebastecnicas.com",
+      "url": "https://jsonlinks.netlify.app",
       "github": "https://github.com/midudev/pruebas-tecnicas"
     },
     {
-      "name": "miduConf",
+      "name": "Larapark",
       "description": "Streaming programming conference for the Spanish-speaking community with top talks",
       "highlights": [
         "+15k tickets handed over",
         "+50k live viewers"
       ],
-      "url": "https://miduconf.com"
+      "url": "https://jsonlinks.netlify.app",
+      "github": "https://github.com/midudev/pruebas-tecnicas"
     }
   ]
 }
