@@ -24,7 +24,7 @@ import { projects } from "@cv"
                         class="github-code-link"
                         href={github}
                         target="_blank"
-                        title={`Ver código fuente del proyecto ${name}`}
+                        title={`Show the source code of: ${name}`}
                       >
                         <GitHub />
                       </a>
@@ -69,6 +69,7 @@ import { projects } from "@cv"
   }
 
   article h3 {
+    font-weight: 500;
     margin-bottom: 4px;
   }
 
@@ -98,14 +99,13 @@ import { projects } from "@cv"
     display: flex;
     flex-wrap: wrap;
     gap: 4px;
-    font-size: 0.6rem;
   }
 
   footer span {
     border-radius: 6px;
     background: #eee;
     color: #444;
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     font-weight: 500;
     padding: 0.2rem 0.6rem;
   }

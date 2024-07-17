@@ -11,7 +11,7 @@ import { work } from "@cv"
         ({ name, startDate, endDate, position, summary, url }) => {
           const startYear = new Date(startDate).getFullYear()
           const endYear =
-            endDate != null ? new Date(endDate).getFullYear() : "Actual"
+            endDate != null ? new Date(endDate).getFullYear() : "Current"
 
           return (
             <li>
@@ -19,7 +19,7 @@ import { work } from "@cv"
                 <header>
                   <div>
                     <h3>
-                      <a href={url} title={`Ver ${name}`} target="_blank">
+                      <a href={url} title={`Visit ${name}`} target="_blank">
                         {name}
                       </a>
                     </h3>
