@@ -107,19 +107,25 @@
   ],
   "skills": [
     {
-      "name": "CSS"
+      "name": "Tailwind"
     },
     {
-      "name": "Git"
+      "name": "AlpineJS"
     },
     {
-      "name": "GitHub"
+      "name": "Laravel"
     },
     {
-      "name": "HTML"
+      "name": "Livewire"
     },
     {
       "name": "JavaScript"
+    },
+    {
+      "name": "TypeScript"
+    },
+    {
+      "name": "Swift"
     },
     {
       "name": "Node"
@@ -128,19 +134,19 @@
       "name": "React"
     },
     {
+      "name": "Git"
+    },
+    {
+      "name": "HTML"
+    },
+    {
+      "name": "CSS"
+    },
+    {
+      "name": "PHP"
+    },
+    {
       "name": "MySQL"
-    },
-    {
-      "name": "GitHub"
-    },
-    {
-      "name": "Swift"
-    },
-    {
-      "name": "Tailwind"
-    },
-    {
-      "name": "TypeScript"
     }
   ],
   "languages": [
@@ -170,8 +176,11 @@
       "isActive": true,
       "description": "Open source links page, customizable via JSON.",
       "highlights": [
-        "Open-Source",
-        "Astro"
+        "Astro",
+        "CSS",
+        "JavaScript",
+        "TypeScript",
+        "Netlify"
       ],
       "url": "https://astrolinkhub.netlify.app",
       "github": "https://github.com/MarcosKlender/AstroLinkHub"
@@ -181,8 +190,11 @@
       "isActive": true,
       "description": "A repository where you will find easy to implement links pages that fit your needs.",
       "highlights": [
-        "Open-Source",
-        "Astro"
+        "Astro",
+        "MDX",
+        "JavaScript",
+        "TypeScript",
+        "Netlify"
       ],
       "url": "https://jsonlinks.netlify.app",
       "github": "https://github.com/MarcosKlender/JSONLinks"
@@ -192,8 +204,11 @@
       "isActive": false,
       "description": "Free software for a properly parking lot management.",
       "highlights": [
-        "Open-Source",
-        "Laravel"
+        "PHP",
+        "Laravel",
+        "JavaScript",
+        "Tailwind",
+        "AlpineJS"
       ],
       "url": "https://github.com/MarcosKlender/Larapark",
       "github": "https://github.com/MarcosKlender/Larapark"
