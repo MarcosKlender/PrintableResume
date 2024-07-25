@@ -31,7 +31,14 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
       <h2>{label}</h2>
       <span>
         <WorldMap />
-        {city}, {region}
+        <a
+          href="https://www.google.com/maps/place/santodomingo,ecuador"
+          title={`Visitar ${city}, ${region} en Google Maps`}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {city}, {region}
+        </a>
       </span>
       <footer class="print">
         {printInfo}
@@ -128,6 +135,10 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
     letter-spacing: -0.05rem;
   }
 
+  span a:hover {
+    text-decoration: underline;
+  }
+
   footer {
     color: #555;
     font-size: 0.65rem;
@@ -150,6 +161,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
   }
 
   footer a:hover {
+    color: #000;
     background: #eee;
     border: 1px solid #ddd;
   }
