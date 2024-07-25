@@ -172,6 +172,33 @@
   ],
   "projects": [
     {
+      "name": "RegistroMJRV",
+      "isActive": false,
+      "description": "Laravel app to manage member registration for Ecuador's 2024 Elections.",
+      "highlights": [
+        "Laravel",
+        "Tailwind",
+        "AlpineJS",
+        "NodeJS",
+        "Vite"
+      ],
+      "url": "https://github.com/MarcosKlender/RegistroMJRV",
+      "github": "https://github.com/MarcosKlender/RegistroMJRV"
+    },
+    {
+      "name": "Larapark",
+      "isActive": false,
+      "description": "Manage your parking lot in the most efficient way, totally free.",
+      "highlights": [
+        "Laravel",
+        "Tailwind",
+        "JavaScript",
+        "Vite"
+      ],
+      "url": "https://github.com/MarcosKlender/Larapark",
+      "github": "https://github.com/MarcosKlender/Larapark"
+    },
+    {
       "name": "AstroLinkHub",
       "isActive": true,
       "description": "Open source links page, customizable via JSON.",
@@ -200,18 +227,17 @@
       "github": "https://github.com/MarcosKlender/JSONLinks"
     },
     {
-      "name": "Larapark",
-      "isActive": false,
-      "description": "Free software for a properly parking lot management.",
+      "name": "YouTubeCounters",
+      "isActive": true,
+      "description": "Simple JavaScript app that retrieves your favorite YouTube channel statistics.",
       "highlights": [
-        "PHP",
-        "Laravel",
-        "JavaScript",
+        "HTML",
         "Tailwind",
-        "AlpineJS"
+        "JavaScript",
+        "API"
       ],
-      "url": "https://github.com/MarcosKlender/Larapark",
-      "github": "https://github.com/MarcosKlender/Larapark"
+      "url": "https://marcosklender.github.io/YouTubeCounters",
+      "github": "https://github.com/MarcosKlender/YouTubeCounters"
     }
   ]
 }
