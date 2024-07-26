@@ -33,7 +33,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
         <WorldMap />
         <a
           href="https://www.google.com/maps/place/santodomingo,ecuador"
-          title={`Visitar ${city}, ${region} en Google Maps`}
+          title={`Open ${city}, ${region} on Google Maps`}
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -48,7 +48,8 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
           email && (
             <a
               href={`mailto:${email}`}
-              title={`Enviar un correo electrónico a ${name} al correo ${email}`}
+              title={`Send email to ${email}`}
+              aria-label={`Send email to ${email}`}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -60,7 +61,8 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
           phone && (
             <a
               href={`${phone}`}
-              title={`Llamar por teléfono a ${name} al número ${phone}`}
+              title={`Send message to ${name} via WhatsApp`}
+              aria-label={`Send message to ${name} via WhatsApp`}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -75,7 +77,8 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
             return (
               <a
                 href={url}
-                title={`Visitar el perfil de ${username} en ${network}`}
+                title={`Visit ${username} on ${network}`}
+                aria-label={`Visit ${username} on ${network}`}
                 target="_blank"
                 rel="noopener noreferrer"
               >
