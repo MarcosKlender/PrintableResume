@@ -53,16 +53,6 @@
       "summary": "Experienced software developer with a track record of delivering innovative solutions to improve business operations. Skilled in web application development, process automation, and data management. Committed to driving efficiency and enhancing the customer experience through the application of technology."
     }
   ],
-  "volunteer": [
-    {
-      "organization": "Organization",
-      "position": "Volunteer",
-      "url": "https://organization.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Description…"
-    }
-  ],
   "education": [
     {
       "institution": "Universidad Internacional de La Rioja (UNIR)",
@@ -79,31 +69,6 @@
       "studyType": "Bachelor",
       "startDate": "2014-01-02",
       "endDate": "2018-12-30"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Award",
-      "date": "2014-11-01",
-      "awarder": "Company",
-      "summary": "There is no spoon."
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Certificate",
-      "date": "2021-11-07",
-      "issuer": "Company",
-      "url": "https://certificate.com"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Publication",
-      "publisher": "Company",
-      "releaseDate": "2014-10-01",
-      "url": "https://publication.com",
-      "summary": "Description…"
     }
   ],
   "skills": [
@@ -148,27 +113,6 @@
     },
     {
       "name": "MySQL"
-    }
-  ],
-  "languages": [
-    {
-      "language": "Spanish",
-      "fluency": "Native Speaker"
-    },
-    {
-      "language": "English",
-      "fluency": "Advanced"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Gaming"
-    }
-  ],
-  "references": [
-    {
-      "name": "Jane Doe",
-      "reference": "Reference…"
     }
   ],
   "projects": [
