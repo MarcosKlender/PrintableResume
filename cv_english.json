@@ -117,6 +117,19 @@
   ],
   "projects": [
     {
+      "name": "ITManager",
+      "isActive": true,
+      "description": "Modern web app for equipment management and tracking, using the TALL Stack.",
+      "highlights": [
+        "Tailwind",
+        "AlpineJS",
+        "Laravel",
+        "Livewire"
+      ],
+      "url": "https://github.com/MarcosKlender/ITManager",
+      "github": "https://github.com/MarcosKlender/ITManager"
+    },
+    {
       "name": "RegistroMJRV",
       "isActive": false,
       "description": "Laravel app to manage member registration for Ecuador's 2024 Elections.",
