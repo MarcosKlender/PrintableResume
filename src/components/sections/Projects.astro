@@ -103,12 +103,18 @@ import { projects } from "@cv"
   }
 
   footer span {
-    border-radius: 6px;
     background: #eee;
-    color: #444;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    color: #555;
     font-size: 0.7rem;
-    font-weight: 500;
     padding: 0.2rem 0.6rem;
+  }
+
+  footer span:hover {
+    border: 1px solid #000;
+    color: #000;
+    cursor: default;
   }
 
   .github-code-link {
