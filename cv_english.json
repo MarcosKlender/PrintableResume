@@ -118,6 +118,16 @@
       "github": "https://github.com/MarcosKlender/YouTubeCounters"
     }
   ],
+  "contributions": [
+    {
+      "name": "AprendiendoGit.com",
+      "isActive": true,
+      "description": "Landing page of Midudev's book called: Aprendiendo Git y GitHub",
+      "highlights": ["Astro", "CSS", "JavaScript", "TypeScript"],
+      "url": "https://aprendiendogit.com",
+      "github": "https://github.com/midudev/aprendiendogit.dev"
+    }
+  ],
   "skills": [
     { "name": "Tailwind" },
     { "name": "AlpineJS" },
