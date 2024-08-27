@@ -10,7 +10,7 @@ import WorldMap from "@/icons/WorldMap.astro";
 import type { SocialIcon } from "@/types";
 
 const { name, label, image, location, profiles, phone, email } = basics;
-const { city, region } = location;
+const { city, country } = location;
 
 const SOCIAL_ICONS: SocialIcon = {
   GitHub,
@@ -33,11 +33,11 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
         <WorldMap />
         <a
           href="https://www.google.com/maps/place/santodomingo,ecuador"
-          title={`Open ${city}, ${region} on Google Maps`}
+          title={`Open ${city}, ${country} on Google Maps`}
           target="_blank"
           rel="noopener noreferrer"
         >
-          {city}, {region}
+          {city}, {country}
         </a>
       </span>
       <footer class="print">

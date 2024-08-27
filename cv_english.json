@@ -8,11 +8,8 @@
     "url": "https://marcosklender.com",
     "summary": "Versatile software engineer with more than 7 years of experience, including mobile development, front-end and back-end web development, and database management. Committed to delivering high-quality and customized solutions. Driven by a positive attitude, strong work ethic, and professional integrity.",
     "location": {
-      "address": "",
-      "postalCode": "230109",
       "city": "Santo Domingo",
-      "countryCode": "EC",
-      "region": "Ecuador"
+      "country": "Ecuador"
     },
     "profiles": [
       {
@@ -27,7 +24,25 @@
       }
     ]
   },
-  "work": [
+  "education": [
+    {
+      "institution": "Universidad Internacional de La Rioja (UNIR)",
+      "url": "https://www.unir.net",
+      "area": "Master's Degree in Software Engineering and IT Systems",
+      "studyType": "Master",
+      "startDate": "2024-01-02",
+      "endDate": "2025-12-30"
+    },
+    {
+      "institution": "Pontificia Universidad Católica del Ecuador (PUCE)",
+      "url": "https://www.puce.edu.ec",
+      "area": "Systems and Computer Engineer",
+      "studyType": "Bachelor",
+      "startDate": "2014-01-02",
+      "endDate": "2018-12-30"
+    }
+  ],
+  "experience": [
     {
       "name": "Consejo Nacional Electoral",
       "position": "IT Security Analyst",
@@ -53,79 +68,12 @@
       "summary": "Experienced software developer with a track record of delivering innovative solutions to improve business operations. Skilled in web application development, process automation, and data management. Committed to driving efficiency and enhancing the customer experience through the application of technology."
     }
   ],
-  "education": [
-    {
-      "institution": "Universidad Internacional de La Rioja (UNIR)",
-      "url": "https://www.unir.net",
-      "area": "Master's Degree in Software Engineering and IT Systems",
-      "studyType": "Master",
-      "startDate": "2024-01-02",
-      "endDate": "2025-12-30"
-    },
-    {
-      "institution": "Pontificia Universidad Católica del Ecuador (PUCE)",
-      "url": "https://www.puce.edu.ec",
-      "area": "Systems and Computer Engineer",
-      "studyType": "Bachelor",
-      "startDate": "2014-01-02",
-      "endDate": "2018-12-30"
-    }
-  ],
-  "skills": [
-    {
-      "name": "Tailwind"
-    },
-    {
-      "name": "AlpineJS"
-    },
-    {
-      "name": "Laravel"
-    },
-    {
-      "name": "Livewire"
-    },
-    {
-      "name": "JavaScript"
-    },
-    {
-      "name": "TypeScript"
-    },
-    {
-      "name": "Swift"
-    },
-    {
-      "name": "Node"
-    },
-    {
-      "name": "React"
-    },
-    {
-      "name": "Git"
-    },
-    {
-      "name": "HTML"
-    },
-    {
-      "name": "CSS"
-    },
-    {
-      "name": "PHP"
-    },
-    {
-      "name": "MySQL"
-    }
-  ],
   "projects": [
     {
       "name": "ITManager",
       "isActive": true,
       "description": "Modern web app for equipment management and tracking, using the TALL Stack.",
-      "highlights": [
-        "Tailwind",
-        "AlpineJS",
-        "Laravel",
-        "Livewire"
-      ],
+      "highlights": ["Tailwind", "AlpineJS", "Laravel", "Livewire"],
       "url": "https://github.com/MarcosKlender/ITManager",
       "github": "https://github.com/MarcosKlender/ITManager"
     },
@@ -133,13 +81,7 @@
       "name": "RegistroMJRV",
       "isActive": false,
       "description": "Laravel app to manage member registration for Ecuador's 2024 Elections.",
-      "highlights": [
-        "Laravel",
-        "Tailwind",
-        "AlpineJS",
-        "NodeJS",
-        "Vite"
-      ],
+      "highlights": ["Laravel", "Tailwind", "AlpineJS", "NodeJS", "Vite"],
       "url": "https://github.com/MarcosKlender/RegistroMJRV",
       "github": "https://github.com/MarcosKlender/RegistroMJRV"
     },
@@ -147,12 +89,7 @@
       "name": "Larapark",
       "isActive": false,
       "description": "Manage your parking lot in the most efficient way, totally free.",
-      "highlights": [
-        "Laravel",
-        "Tailwind",
-        "JavaScript",
-        "Vite"
-      ],
+      "highlights": ["Laravel", "Tailwind", "JavaScript", "Vite"],
       "url": "https://github.com/MarcosKlender/Larapark",
       "github": "https://github.com/MarcosKlender/Larapark"
     },
@@ -160,13 +97,7 @@
       "name": "AstroLinkHub",
       "isActive": true,
       "description": "Open source links page, customizable via JSON.",
-      "highlights": [
-        "Astro",
-        "CSS",
-        "JavaScript",
-        "TypeScript",
-        "Netlify"
-      ],
+      "highlights": ["Astro", "CSS", "JavaScript", "TypeScript", "Netlify"],
       "url": "https://astrolinkhub.netlify.app",
       "github": "https://github.com/MarcosKlender/AstroLinkHub"
     },
@@ -174,13 +105,7 @@
       "name": "JSONLinks",
       "isActive": true,
       "description": "A repository where you will find easy to implement links pages that fit your needs.",
-      "highlights": [
-        "Astro",
-        "MDX",
-        "JavaScript",
-        "TypeScript",
-        "Netlify"
-      ],
+      "highlights": ["Astro", "MDX", "JavaScript", "TypeScript", "Netlify"],
       "url": "https://jsonlinks.netlify.app",
       "github": "https://github.com/MarcosKlender/JSONLinks"
     },
@@ -188,14 +113,25 @@
       "name": "YouTubeCounters",
       "isActive": true,
       "description": "Simple JavaScript app that retrieves your favorite YouTube channel statistics.",
-      "highlights": [
-        "HTML",
-        "Tailwind",
-        "JavaScript",
-        "API"
-      ],
+      "highlights": ["HTML", "Tailwind", "JavaScript", "API"],
       "url": "https://marcosklender.github.io/YouTubeCounters",
       "github": "https://github.com/MarcosKlender/YouTubeCounters"
     }
+  ],
+  "skills": [
+    { "name": "Tailwind" },
+    { "name": "AlpineJS" },
+    { "name": "Laravel" },
+    { "name": "Livewire" },
+    { "name": "JavaScript" },
+    { "name": "TypeScript" },
+    { "name": "Swift" },
+    { "name": "Node" },
+    { "name": "React" },
+    { "name": "Git" },
+    { "name": "HTML" },
+    { "name": "CSS" },
+    { "name": "PHP" },
+    { "name": "MySQL" }
   ]
 }

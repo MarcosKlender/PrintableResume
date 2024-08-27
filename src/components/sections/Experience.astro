@@ -1,13 +1,13 @@
 ---
 import Section from "../Section.astro"
 
-import { work } from "@cv"
+import { experience } from "@cv"
 ---
 
 <Section title="Experience">
   <ul>
     {
-      work.map(
+      experience.map(
         ({ name, startDate, endDate, position, summary, url }) => {
           const startYear = new Date(startDate).getFullYear()
           const endYear =
