@@ -23,3 +23,7 @@ pnpm-debug.log*
 # local folders
 .history
 .vscode
+
+# typescript files
+env.d.ts
+cv.d.ts
