@@ -1,0 +1,147 @@
+{
+  "basics": {
+    "name": "Marcos Klender Carrasco",
+    "label": "Desarrollador Full Stack con +7 años de experiencia.",
+    "image": "/me.webp",
+    "email": "marcosklender@gmail.com",
+    "phone": "https://wa.me/5930980199488",
+    "url": "https://marcosklender.com",
+    "summary": "Ingeniero de software versátil con más de 7 años de experiencia, incluyendo desarrollo móvil, desarrollo web front-end y back-end, y gestión de bases de datos. Comprometido con la entrega de alta calidad y soluciones personalizadas. Impulsado por una actitud positiva, fuerte ética de trabajo e integridad profesional.",
+    "location": {
+      "city": "Santo Domingo",
+      "country": "Ecuador"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "marcosklender",
+        "url": "https://linkedin.com/in/marcosklender"
+      },
+      {
+        "network": "GitHub",
+        "username": "marcosklender",
+        "url": "https://github.com/marcosklender"
+      }
+    ]
+  },
+  "education": [
+    {
+      "institution": "Universidad Internacional de La Rioja (UNIR)",
+      "url": "https://www.unir.net",
+      "area": "Magíster en Ingeniería de Software y Sistemas Informáticos",
+      "studyType": "Master",
+      "startDate": "2024-01-02",
+      "endDate": "2025-12-30"
+    },
+    {
+      "institution": "Pontificia Universidad Católica del Ecuador (PUCE)",
+      "url": "https://www.puce.edu.ec",
+      "area": "Ingeniero de Sistemas y Computación",
+      "studyType": "Bachelor",
+      "startDate": "2014-01-02",
+      "endDate": "2018-12-30"
+    }
+  ],
+  "experience": [
+    {
+      "name": "Consejo Nacional Electoral",
+      "position": "Analista de Seguridad Informática",
+      "url": "https://cne.gob.ec",
+      "startDate": "2019-01-02",
+      "endDate": null,
+      "summary": "Profesional de TI con experiencia en gestión de infraestructuras tecnológicas y apoyo en operaciones críticas. Hábil a la hora de proporcionar orientación técnica, formación y asistencia remota al personal. Comprometido a garantizar el correcto funcionamiento de los sistemas tecnológicos y permitir flujos de trabajo eficientes."
+    },
+    {
+      "name": "iLinser",
+      "position": "Desarrollador Full Stack",
+      "url": "https://ilinser.com",
+      "startDate": "2020-01-02",
+      "endDate": "2024-12-30",
+      "summary": "Ingeniero de software y emprendedor con amplia experiencia en desarrollo web, administración de sistemas operativos y consultoría. Cofundador de esta microempresa de soluciones tecnológicas donde me dediqué al desarrollo web, implementando mejoras en la experiencia del usuario."
+    },
+    {
+      "name": "Chery Ecuador",
+      "position": "Desarrollador Full Stack",
+      "url": "https://www.chery.com.ec",
+      "startDate": "2019-01-02",
+      "endDate": "2019-12-30",
+      "summary": "Desarrollador de software experimentado en soluciones innovadoras para mejorar las operaciones empresariales. Experto en desarrollo de aplicaciones web, automatización de procesos y gestión de datos. Comprometido a impulsar la eficiencia y mejorar la experiencia del cliente mediante la aplicación de la tecnología."
+    }
+  ],
+  "projects": [
+    {
+      "name": "ITManager",
+      "isActive": true,
+      "description": "Moderna app web para la gestión y seguimiento de equipos, usando la TALL Stack.",
+      "highlights": ["Tailwind", "AlpineJS", "Laravel", "Livewire"],
+      "url": "https://github.com/MarcosKlender/ITManager",
+      "github": "https://github.com/MarcosKlender/ITManager"
+    },
+    {
+      "name": "RegistroMJRV",
+      "isActive": false,
+      "description": "App Laravel para el registro de MJRV en las Elecciones de Ecuador 2024.",
+      "highlights": ["Laravel", "Tailwind", "AlpineJS", "NodeJS", "Vite"],
+      "url": "https://github.com/MarcosKlender/RegistroMJRV",
+      "github": "https://github.com/MarcosKlender/RegistroMJRV"
+    },
+    {
+      "name": "Larapark",
+      "isActive": false,
+      "description": "Gestione su parqueadero de la forma más eficaz, totalmente gratis.",
+      "highlights": ["Laravel", "Tailwind", "JavaScript", "Vite"],
+      "url": "https://github.com/MarcosKlender/Larapark",
+      "github": "https://github.com/MarcosKlender/Larapark"
+    },
+    {
+      "name": "AstroLinkHub",
+      "isActive": true,
+      "description": "Página de enlaces de código abierto, personalizable mediante JSON.",
+      "highlights": ["Astro", "CSS", "JavaScript", "TypeScript", "Netlify"],
+      "url": "https://astrolinkhub.netlify.app",
+      "github": "https://github.com/MarcosKlender/AstroLinkHub"
+    },
+    {
+      "name": "JSONLinks",
+      "isActive": true,
+      "description": "Repositorio de páginas de enlaces fáciles de implementar que se adaptan a sus necesidades.",
+      "highlights": ["Astro", "MDX", "JavaScript", "TypeScript", "Netlify"],
+      "url": "https://jsonlinks.netlify.app",
+      "github": "https://github.com/MarcosKlender/JSONLinks"
+    },
+    {
+      "name": "YouTubeCounters",
+      "isActive": true,
+      "description": "App sencilla que recupera las estadísticas de tus canales favoritos de YouTube.",
+      "highlights": ["HTML", "Tailwind", "JavaScript", "API"],
+      "url": "https://marcosklender.github.io/YouTubeCounters",
+      "github": "https://github.com/MarcosKlender/YouTubeCounters"
+    }
+  ],
+  "contributions": [
+    {
+      "name": "AprendiendoGit.com",
+      "isActive": true,
+      "description": "Página web del libro de Midudev llamado: Aprendiendo Git y GitHub",
+      "highlights": ["Astro", "CSS", "JavaScript", "TypeScript"],
+      "url": "https://aprendiendogit.com",
+      "github": "https://github.com/midudev/aprendiendogit.dev"
+    }
+  ],
+  "skills": [
+    { "name": "Tailwind" },
+    { "name": "AlpineJS" },
+    { "name": "Laravel" },
+    { "name": "Livewire" },
+    { "name": "JavaScript" },
+    { "name": "TypeScript" },
+    { "name": "Swift" },
+    { "name": "Node" },
+    { "name": "React" },
+    { "name": "Git" },
+    { "name": "HTML" },
+    { "name": "CSS" },
+    { "name": "PHP" },
+    { "name": "MySQL" }
+  ]
+}
