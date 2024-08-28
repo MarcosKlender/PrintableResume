@@ -28,14 +28,12 @@ import { experience } from "@/json/resume_en.json"
 
                   <div>
                     <time 
-                      datetime={startDate}
-                      data-title={startDate}>
+                      datetime={startDate}>
                         {startYear}
                     </time>
                     {" - "}
                     <time 
-                      datetime={endDate}
-                      data-title={endDate}>
+                      datetime={endDate}>
                         {endYear}
                     </time>
                   </div>
@@ -85,36 +83,6 @@ import { experience } from "@/json/resume_en.json"
     color: #555;
     font-size: 0.85rem;
     min-width: 102px;
-    cursor: default;
     text-align: right;
-  }
-
-  [data-title]:hover:after {
-    opacity: 1;
-    transition: all 0.1s ease-in-out 0.5s;
-    visibility: visible;
-  }
-
-  [data-title]:after {
-    content: attr(data-title);
-    background-color: #333;
-    color: #fff;
-    font-size: .75rem;
-    font-family: Menlo, Monaco, Lucida Console, "Courier New", monospace;;
-    position: absolute;
-    padding: .2rem .5rem;
-    bottom: -1.4rem;
-    left: 50%;
-    white-space: nowrap;
-    box-shadow: 1px 1px 1px #222222;
-    opacity: 0;
-    border: 1px solid #111111;
-    z-index: 99999;
-    visibility: hidden;
-    border-radius: 6px;
-  }
-
-  [data-title] {
-    position: relative;
   }
 </style>
