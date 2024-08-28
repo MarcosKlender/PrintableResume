@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Midudev](logo.png)
+![Midudev](/public/images/midulogo.png)
 
 </div>
 
@@ -23,7 +23,7 @@ Designed and developed by [Midudev](https://midu.dev/)
 
 </div>
 
-![Screenshot](screenshot.webp)
+![Screenshot](/public/images/screenshot.webp)
 
 
 ## Table of Contents
