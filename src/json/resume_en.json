@@ -130,19 +130,19 @@
     }
   ],
   "skills": [
-    { "name": "Tailwind" },
     { "name": "AlpineJS" },
-    { "name": "Laravel" },
-    { "name": "Livewire" },
-    { "name": "JavaScript" },
-    { "name": "TypeScript" },
-    { "name": "Swift" },
-    { "name": "Node" },
-    { "name": "React" },
+    { "name": "CSS" },
     { "name": "Git" },
     { "name": "HTML" },
-    { "name": "CSS" },
+    { "name": "JavaScript" },
+    { "name": "Laravel" },
+    { "name": "Livewire" },
+    { "name": "MySQL" },
+    { "name": "Node" },
     { "name": "PHP" },
-    { "name": "MySQL" }
+    { "name": "React" },
+    { "name": "Swift" },
+    { "name": "Tailwind" },
+    { "name": "TypeScript" }
   ]
 }
