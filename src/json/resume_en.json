@@ -126,7 +126,7 @@
       "description": "Landing page of Midudev's book called: Aprendiendo Git y GitHub",
       "highlights": ["Astro", "CSS", "JavaScript", "TypeScript"],
       "url": "https://aprendiendogit.com",
-      "github": "https://github.com/midudev/aprendiendogit.dev"
+      "github": "https://github.com/midudev/aprendiendogit.dev/pulls?q=is%3Apr+is%3Aclosed+MarcosKlender"
     }
   ],
   "skills": [
