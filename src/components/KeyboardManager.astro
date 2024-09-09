@@ -59,6 +59,7 @@ const profilesInfo = profiles.map(({ network, url }) => {
 ---
 
 <footer id="normal-footer" class="no-print">
+  <div id="progress-bar"></div>
   Press <kbd>Ctrl + K</kbd> or <kbd>Cmd + K</kbd> to open the command palette.
 </footer>
 
@@ -194,7 +195,7 @@ const profilesInfo = profiles.map(({ network, url }) => {
     position: fixed;
     bottom: 0px;
     width: 100%;
-    padding-block: 8px;
+    padding-block: 10px 8px;
     text-align: center;
     font-size: 0.85rem;
 
@@ -217,5 +218,20 @@ const profilesInfo = profiles.map(({ network, url }) => {
     border-radius: 4px;
     padding: 2px 4px;
     font-size: 12px;
+  }
+
+  #progress-bar {
+    position: absolute;
+    top: 0;
+    background: #777;
+    height: 2px;
+
+    animation: bar-grow auto linear;
+    animation-timeline: scroll(root);
+  }
+
+  @keyframes bar-grow {
+    0% { width: 0% }
+    100% { width: 100% }
   }
 </style>
