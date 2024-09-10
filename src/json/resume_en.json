@@ -71,6 +71,14 @@
   ],
   "projects": [
     {
+      "name": "Night.css",
+      "isActive": true,
+      "description": "A classless framework for a perfect dark mode!",
+      "highlights": ["Classless Framework", "CSS", "LightningCSS", "CLI"],
+      "url": "https://marcosklender.github.io/night.css",
+      "github": "https://github.com/MarcosKlender/night.css"
+    },
+    {
       "name": "ITManager",
       "isActive": true,
       "description": "Modern web app for equipment management and tracking, using the TALL Stack.",
