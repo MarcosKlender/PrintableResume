@@ -117,14 +117,6 @@
       "highlights": ["Astro", "MDX", "JavaScript", "TypeScript", "Netlify"],
       "url": "https://jsonlinks.netlify.app",
       "github": "https://github.com/MarcosKlender/JSONLinks"
-    },
-    {
-      "name": "YouTubeCounters",
-      "isActive": true,
-      "description": "Simple JavaScript app that retrieves your favorite YouTube channel statistics.",
-      "highlights": ["HTML", "Tailwind", "JavaScript", "API"],
-      "url": "https://marcosklender.github.io/YouTubeCounters",
-      "github": "https://github.com/MarcosKlender/YouTubeCounters"
     }
   ],
   "contributions": [
@@ -135,6 +127,14 @@
       "highlights": ["Astro", "CSS", "JavaScript", "TypeScript"],
       "url": "https://aprendiendogit.com",
       "github": "https://github.com/midudev/aprendiendogit.dev/pulls?q=is%3Apr+is%3Aclosed+MarcosKlender"
+    },
+    {
+      "name": "JSConf.es",
+      "isActive": true,
+      "description": "Official website of JSConf Spain 2025",
+      "highlights": ["Astro", "CSS", "JavaScript", "TypeScript"],
+      "url": "https://www.jsconf.es/",
+      "github": "https://github.com/midudev/jsconf.es/pulls?q=is%3Apr+is%3Aclosed+MarcosKlender"
     }
   ],
   "skills": [
