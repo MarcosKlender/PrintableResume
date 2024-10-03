@@ -133,8 +133,16 @@
       "isActive": true,
       "description": "Official website of JSConf Spain 2025",
       "highlights": ["Astro", "CSS", "JavaScript", "TypeScript"],
-      "url": "https://www.jsconf.es/",
+      "url": "https://www.jsconf.es",
       "github": "https://github.com/midudev/jsconf.es/pulls?q=is%3Apr+is%3Aclosed+MarcosKlender"
+    },
+    {
+      "name": "JavaScript100.dev",
+      "isActive": true,
+      "description": "100 JavaScript projects with code and videos, for free!",
+      "highlights": ["Astro", "HTML", "CSS", "JavaScript"],
+      "url": "https://www.javascript100.dev",
+      "github": "https://github.com/midudev/javascript-100-proyectos/pulls?q=is%3Apr+is%3Aclosed+author%3AMarcosKlender"
     }
   ],
   "skills": [
