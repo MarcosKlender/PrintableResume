@@ -71,6 +71,22 @@
   ],
   "projects": [
     {
+      "name": "AstroLinkHub",
+      "isActive": true,
+      "description": "Open source links page, customizable via JSON.",
+      "highlights": ["Astro", "CSS", "JavaScript", "TypeScript", "Netlify"],
+      "url": "https://astrolinkhub.netlify.app",
+      "github": "https://github.com/MarcosKlender/AstroLinkHub"
+    },
+    {
+      "name": "Warp Portfolio",
+      "isActive": true,
+      "description": "Open source web portfolio, inspired by Warp Terminal.",
+      "highlights": ["Astro", "Tailwind", "JavaScript", "Netlify"],
+      "url": "https://warpportfolio.netlify.app",
+      "github": "https://github.com/MarcosKlender/WarpPortfolio"
+    },
+    {
       "name": "Night.css",
       "isActive": true,
       "description": "A classless framework for a perfect dark mode!",
@@ -101,22 +117,6 @@
       "highlights": ["Laravel", "Tailwind", "JavaScript", "Vite"],
       "url": "https://github.com/MarcosKlender/Larapark",
       "github": "https://github.com/MarcosKlender/Larapark"
-    },
-    {
-      "name": "AstroLinkHub",
-      "isActive": true,
-      "description": "Open source links page, customizable via JSON.",
-      "highlights": ["Astro", "CSS", "JavaScript", "TypeScript", "Netlify"],
-      "url": "https://astrolinkhub.netlify.app",
-      "github": "https://github.com/MarcosKlender/AstroLinkHub"
-    },
-    {
-      "name": "JSONLinks",
-      "isActive": true,
-      "description": "A repository where you will find easy to implement links pages that fit your needs.",
-      "highlights": ["Astro", "MDX", "JavaScript", "TypeScript", "Netlify"],
-      "url": "https://jsonlinks.netlify.app",
-      "github": "https://github.com/MarcosKlender/JSONLinks"
     }
   ],
   "contributions": [
