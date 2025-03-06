@@ -121,12 +121,12 @@
   ],
   "contributions": [
     {
-      "name": "AprendiendoGit.com",
+      "name": "Lola Lolita Land",
       "isActive": true,
-      "description": "Landing page of Midudev's book called: Aprendiendo Git y GitHub",
-      "highlights": ["Astro", "CSS", "JavaScript", "TypeScript"],
-      "url": "https://aprendiendogit.com",
-      "github": "https://github.com/midudev/aprendiendogit.dev/pulls?q=is%3Apr+is%3Aclosed+MarcosKlender"
+      "description": "Official website of Lola Lolita Land 2025",
+      "highlights": ["Astro", "Tailwind", "JavaScript"],
+      "url": "https://www.lolalolitaland.com",
+      "github": "https://github.com/midudev/lolalolitaland.com/pulls?q=is%3Apr+is%3Aclosed+author%3AMarcosKlender"
     },
     {
       "name": "JSConf.es",
@@ -143,6 +143,14 @@
       "highlights": ["Astro", "HTML", "CSS", "JavaScript"],
       "url": "https://www.javascript100.dev",
       "github": "https://github.com/midudev/javascript-100-proyectos/pulls?q=is%3Apr+is%3Aclosed+author%3AMarcosKlender"
+    },
+    {
+      "name": "AprendiendoGit.com",
+      "isActive": true,
+      "description": "Landing page of Midudev's book called: Aprendiendo Git y GitHub",
+      "highlights": ["Astro", "CSS", "JavaScript", "TypeScript"],
+      "url": "https://aprendiendogit.com",
+      "github": "https://github.com/midudev/aprendiendogit.dev/pulls?q=is%3Apr+is%3Aclosed+MarcosKlender"
     }
   ],
   "skills": [
