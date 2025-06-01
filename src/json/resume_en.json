@@ -61,6 +61,51 @@
       "summary": "Accomplished software engineer and entrepreneur with extensive experience in web development, operating systems administration, and consulting. Co-founded this micro-company providing technology solutions and successfully grew the business through innovative web development and user experience improvements."
     }
   ],
+  "featured": [
+    {
+      "name": "BrandVera Construction",
+      "isActive": true,
+      "description": "Enhance your home’s value and beauty with our remodeling services.",
+      "highlights": [
+        "WordPress",
+        "CMS",
+        "PHP",
+        "Apache",
+        "MySQL",
+        "SEO"
+      ],
+      "url": "https://brandveraconstruction.com",
+      "github": ""
+    },
+    {
+      "name": "BrandVera Stone Catalog",
+      "isActive": true,
+      "description": "Minimalist catalog of Quartz, Granite, Porcelain and Exotic Natural Stones.",
+      "highlights": [
+        "Astro",
+        "Tailwind",
+        "JavaScript",
+        "Netlify"
+      ],
+      "url": "https://brandverastones.netlify.app",
+      "github": ""
+    },
+    {
+      "name": "Visa Travel Ecuador",
+      "isActive": true,
+      "description": "Ecuadorian travel agency specialized in advising and visa management.",
+      "highlights": [
+        "WordPress",
+        "CMS",
+        "PHP",
+        "Apache",
+        "MySQL",
+        "SEO"
+      ],
+      "url": "https://visatravelecuador.com",
+      "github": ""
+    }
+  ],
   "projects": [
     {
       "name": "Miduwind",
@@ -130,7 +175,7 @@
     },
     {
       "name": "SteamReview",
-      "isActive": false,
+      "isActive": true,
       "description": "Steam review creator. Available in Spanish too!",
       "highlights": [
         "Astro",
@@ -181,19 +226,6 @@
       ],
       "url": "https://www.javascript100.dev",
       "github": "https://github.com/midudev/javascript-100-proyectos/pulls?q=is%3Apr+is%3Aclosed+author%3AMarcosKlender"
-    },
-    {
-      "name": "AprendiendoGit.com",
-      "isActive": true,
-      "description": "Landing page for Aprendiendo Git y GitHub book",
-      "highlights": [
-        "Astro",
-        "CSS",
-        "JavaScript",
-        "TypeScript"
-      ],
-      "url": "https://aprendiendogit.com",
-      "github": "https://github.com/midudev/aprendiendogit.dev/pulls?q=is%3Apr+is%3Aclosed+MarcosKlender"
     }
   ],
   "skills": [

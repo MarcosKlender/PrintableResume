@@ -1,17 +1,18 @@
 ---
-import Layout from "@/layouts/Layout.astro"
+import Layout from "@/layouts/Layout.astro";
 
-import Hero from "@/components/sections/Hero.astro"
-import About from "@/components/sections/About.astro"
-import Education from "@/components/sections/Education.astro"
-import Experience from "@/components/sections/Experience.astro"
-import Projects from "@/components/sections/Projects.astro"
-import Contributions from "@/components/sections/Contributions.astro"
-import Skills from "@/components/sections/Skills.astro"
-import KeyboardManager from "@/components/KeyboardManager.astro"
+import Hero from "@/components/sections/Hero.astro";
+import About from "@/components/sections/About.astro";
+import Education from "@/components/sections/Education.astro";
+import Experience from "@/components/sections/Experience.astro";
+import Featured from "@/components/sections/Featured.astro";
+import Projects from "@/components/sections/Projects.astro";
+import Contributions from "@/components/sections/Contributions.astro";
+import Skills from "@/components/sections/Skills.astro";
+import KeyboardManager from "@/components/KeyboardManager.astro";
 
-import { basics } from "@/json/resume_en.json"
-const { name, label } = basics
+import { basics } from "@/json/resume_en.json";
+const { name, label } = basics;
 ---
 
 <Layout title={`Resume | ${name} - ${label}`}>
@@ -20,6 +21,7 @@ const { name, label } = basics
     <About />
     <Education />
     <Experience />
+    <Featured />
     <Projects />
     <Contributions />
     <Skills />
