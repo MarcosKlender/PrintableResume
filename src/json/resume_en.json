@@ -2,12 +2,12 @@
   "basics": {
     "language": "en",
     "name": "Marcos Klender Carrasco",
-    "label": "Full Stack Developer with +8 years of experience",
+    "label": "Software Engineer with +8 years of experience",
     "image": "/images/me.webp",
     "email": "marcosklender@gmail.com",
     "phone": "https://wa.me/5930980199488",
     "url": "https://marcosklender.com",
-    "summary": "I'm a Systems Engineer with a Master's Degree in Software Engineering, currently working as an IT Security Analyst, with over 8 years in software development and more than 5 years specializing in IT security. My expertise includes web development, project architecture, consulting, and continuous staff training, complemented by experience as a Full Stack Developer and iOS app creator. Passionate about technology and innovation, I'm committed to frontend development focused on intuitive, accessible user experiences and meticulous attention to detail.",
+    "summary": "My expertise includes web development, project architecture, consulting, and continuous staff training, complemented by experience as a Full Stack Developer and iOS app creator. Passionate about technology and innovation, I'm committed to frontend development focused on intuitive, accessible user experiences and meticulous attention to detail.",
     "location": {
       "city": "Santo Domingo",
       "country": "Ecuador"
@@ -59,64 +59,88 @@
       "startDate": "2020-01-02",
       "endDate": "2024-12-30",
       "summary": "Accomplished software engineer and entrepreneur with extensive experience in web development, operating systems administration, and consulting. Co-founded this micro-company providing technology solutions and successfully grew the business through innovative web development and user experience improvements."
-    },
-    {
-      "name": "Chery Ecuador",
-      "position": "Full Stack Developer",
-      "url": "https://www.chery.com.ec",
-      "startDate": "2019-01-02",
-      "endDate": "2019-12-30",
-      "summary": "Experienced software developer with a track record of delivering innovative solutions to improve business operations. Skilled in web application development, process automation, and data management. Committed to driving efficiency and enhancing the customer experience through the application of technology."
     }
   ],
   "projects": [
     {
-      "name": "AstroLinkHub",
+      "name": "Miduwind",
       "isActive": true,
-      "description": "Open source links page, customizable via JSON.",
-      "highlights": ["Astro", "CSS", "JavaScript", "TypeScript", "Netlify"],
-      "url": "https://astrolinkhub.netlify.app",
-      "github": "https://github.com/MarcosKlender/AstroLinkHub"
+      "description": "Newest open-source links page, fully customizable too!",
+      "highlights": [
+        "Astro",
+        "Tailwind",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "url": "https://miduwind.netlify.app",
+      "github": "https://github.com/MarcosKlender/Miduwind"
     },
     {
       "name": "Warp Portfolio",
       "isActive": true,
       "description": "Open source web portfolio, inspired by Warp Terminal.",
-      "highlights": ["Astro", "Tailwind", "JavaScript", "Netlify"],
+      "highlights": [
+        "Astro",
+        "Tailwind",
+        "JavaScript",
+        "Netlify"
+      ],
       "url": "https://warpportfolio.netlify.app",
       "github": "https://github.com/MarcosKlender/WarpPortfolio"
+    },
+    {
+      "name": "AstroLinkHub",
+      "isActive": true,
+      "description": "Open source links page, customizable via JSON.",
+      "highlights": [
+        "Astro",
+        "CSS",
+        "JavaScript",
+        "TypeScript",
+        "Netlify"
+      ],
+      "url": "https://astrolinkhub.netlify.app",
+      "github": "https://github.com/MarcosKlender/AstroLinkHub"
     },
     {
       "name": "Night.css",
       "isActive": true,
       "description": "A classless framework for a perfect dark mode!",
-      "highlights": ["Classless Framework", "CSS", "LightningCSS", "CLI"],
+      "highlights": [
+        "Classless Framework",
+        "CSS",
+        "LightningCSS",
+        "CLI"
+      ],
       "url": "https://marcosklender.github.io/night.css",
       "github": "https://github.com/MarcosKlender/night.css"
     },
     {
-      "name": "ITManager",
-      "isActive": true,
-      "description": "Modern web app for equipment management and tracking, using the TALL Stack.",
-      "highlights": ["Tailwind", "AlpineJS", "Laravel", "Livewire"],
-      "url": "https://github.com/MarcosKlender/ITManager",
-      "github": "https://github.com/MarcosKlender/ITManager"
-    },
-    {
-      "name": "RegistroMJRV",
-      "isActive": false,
-      "description": "Laravel app to manage member registration for Ecuador's 2024 Elections.",
-      "highlights": ["Laravel", "Tailwind", "AlpineJS", "NodeJS", "Vite"],
-      "url": "https://github.com/MarcosKlender/RegistroMJRV",
-      "github": "https://github.com/MarcosKlender/RegistroMJRV"
-    },
-    {
       "name": "Larapark",
       "isActive": false,
-      "description": "Manage your parking lot in the most efficient way, totally free.",
-      "highlights": ["Laravel", "Tailwind", "JavaScript", "Vite"],
+      "description": "Manage your parking lot efficiently, totally free.",
+      "highlights": [
+        "Laravel",
+        "Tailwind",
+        "JavaScript",
+        "Vite"
+      ],
       "url": "https://github.com/MarcosKlender/Larapark",
       "github": "https://github.com/MarcosKlender/Larapark"
+    },
+    {
+      "name": "SteamReview",
+      "isActive": false,
+      "description": "Steam review creator. Available in Spanish too!",
+      "highlights": [
+        "Astro",
+        "CSS",
+        "JSON",
+        "JavaScript",
+        "Netlify"
+      ],
+      "url": "https://steamreview.netlify.app",
+      "github": "https://github.com/MarcosKlender/SteamReviews"
     }
   ],
   "contributions": [
@@ -124,7 +148,11 @@
       "name": "Lola Lolita Land",
       "isActive": true,
       "description": "Official website of Lola Lolita Land 2025",
-      "highlights": ["Astro", "Tailwind", "JavaScript"],
+      "highlights": [
+        "Astro",
+        "Tailwind",
+        "JavaScript"
+      ],
       "url": "https://www.lolalolitaland.com",
       "github": "https://github.com/midudev/lolalolitaland.com/pulls?q=is%3Apr+is%3Aclosed+author%3AMarcosKlender"
     },
@@ -132,7 +160,12 @@
       "name": "JSConf.es",
       "isActive": true,
       "description": "Official website of JSConf Spain 2025",
-      "highlights": ["Astro", "CSS", "JavaScript", "TypeScript"],
+      "highlights": [
+        "Astro",
+        "CSS",
+        "JavaScript",
+        "TypeScript"
+      ],
       "url": "https://www.jsconf.es",
       "github": "https://github.com/midudev/jsconf.es/pulls?q=is%3Apr+is%3Aclosed+MarcosKlender"
     },
@@ -140,33 +173,71 @@
       "name": "JavaScript100.dev",
       "isActive": true,
       "description": "100 JavaScript projects with code and videos, for free!",
-      "highlights": ["Astro", "HTML", "CSS", "JavaScript"],
+      "highlights": [
+        "Astro",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
       "url": "https://www.javascript100.dev",
       "github": "https://github.com/midudev/javascript-100-proyectos/pulls?q=is%3Apr+is%3Aclosed+author%3AMarcosKlender"
     },
     {
       "name": "AprendiendoGit.com",
       "isActive": true,
-      "description": "Landing page of Midudev's book called: Aprendiendo Git y GitHub",
-      "highlights": ["Astro", "CSS", "JavaScript", "TypeScript"],
+      "description": "Landing page for Aprendiendo Git y GitHub book",
+      "highlights": [
+        "Astro",
+        "CSS",
+        "JavaScript",
+        "TypeScript"
+      ],
       "url": "https://aprendiendogit.com",
       "github": "https://github.com/midudev/aprendiendogit.dev/pulls?q=is%3Apr+is%3Aclosed+MarcosKlender"
     }
   ],
   "skills": [
-    { "name": "AlpineJS" },
-    { "name": "CSS" },
-    { "name": "Git" },
-    { "name": "HTML" },
-    { "name": "JavaScript" },
-    { "name": "Laravel" },
-    { "name": "Livewire" },
-    { "name": "MySQL" },
-    { "name": "Node" },
-    { "name": "PHP" },
-    { "name": "React" },
-    { "name": "Swift" },
-    { "name": "Tailwind" },
-    { "name": "TypeScript" }
+    {
+      "name": "AlpineJS"
+    },
+    {
+      "name": "CSS"
+    },
+    {
+      "name": "Git"
+    },
+    {
+      "name": "HTML"
+    },
+    {
+      "name": "JavaScript"
+    },
+    {
+      "name": "Laravel"
+    },
+    {
+      "name": "Livewire"
+    },
+    {
+      "name": "MySQL"
+    },
+    {
+      "name": "Node"
+    },
+    {
+      "name": "PHP"
+    },
+    {
+      "name": "React"
+    },
+    {
+      "name": "Swift"
+    },
+    {
+      "name": "Tailwind"
+    },
+    {
+      "name": "TypeScript"
+    }
   ]
 }
