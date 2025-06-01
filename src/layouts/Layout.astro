@@ -1,12 +1,22 @@
 ---
-import { basics } from "@/json/resume_en.json"
+import { basics } from "@/json/resume_en.json";
 
 interface Props {
-  title: string
+  title: string;
 }
 
-const { title } = Astro.props
-const { language, image, summary, url } = basics
+const { title } = Astro.props;
+const {
+  language,
+  image,
+  summary,
+  ogType,
+  ogSiteName,
+  ogTitle,
+  ogDescription,
+  ogUrl,
+  ogImage,
+} = basics;
 ---
 
 <!doctype html>
@@ -18,19 +28,12 @@ const { language, image, summary, url } = basics
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
     <link rel="preload" as="image" href={image} />
-
-    <meta property="og:url" content={url} />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content={title} />
-    <meta property="og:description" content={summary} />
-    <meta property="og:image" content="" />
-
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta property="twitter:domain" content={url.split("//")[1] ?? ''} />
-    <meta property="twitter:url" content={url} />
-    <meta name="twitter:title" content={title} />
-    <meta name="twitter:description" content={summary} />
-    <meta name="twitter:image" content="" />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:site_name" content={ogSiteName} />
+    <meta property="og:title" content={ogTitle} />
+    <meta property="og:description" content={ogDescription} />
+    <meta property="og:url" content={ogUrl} />
+    <meta property="og:image" content={ogImage} />
   </head>
   <body>
     <slot />

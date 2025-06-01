@@ -6,8 +6,13 @@
     "image": "/images/me.webp",
     "email": "marcosklender@gmail.com",
     "phone": "https://wa.me/5930980199488",
-    "url": "https://marcosklender.com",
     "summary": "My expertise includes web development, project architecture, consulting, and continuous staff training, complemented by experience as a Full Stack Developer and iOS app creator. Passionate about technology and innovation, I'm committed to frontend development focused on intuitive, accessible user experiences and meticulous attention to detail.",
+    "ogType": "website",
+    "ogSiteName": "MarcosKlender",
+    "ogTitle": "Marcos Klender Carrasco",
+    "ogDescription": "Resume and Featured Work!",
+    "ogUrl": "https://marcosklender.com",
+    "ogImage": "https://marcosklender.com/images/og-img.jpg",
     "location": {
       "city": "Santo Domingo",
       "country": "Ecuador"
