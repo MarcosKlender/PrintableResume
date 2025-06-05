@@ -88,9 +88,10 @@
       "description": "Minimalist catalog of Quartz, Granite, Porcelain and Exotic Natural Stones.",
       "highlights": [
         "Astro",
+        "Preact",
         "Tailwind",
         "JavaScript",
-        "Netlify"
+        "TypeScript"
       ],
       "url": "https://brandverastones.netlify.app",
       "github": ""
