@@ -6,11 +6,11 @@
     "image": "/images/me.webp",
     "email": "marcosklender@gmail.com",
     "phone": "https://wa.me/5930980199488",
-    "summary": "My expertise includes web development, project architecture, consulting, and continuous staff training, complemented by experience as a Full Stack Developer and iOS app creator. Passionate about technology and innovation, I'm committed to frontend development focused on intuitive, accessible user experiences and meticulous attention to detail.",
+    "summary": "Software Engineer with 8+ years of experience specializing in frontend development and design systems. I bridge the gap between design and engineering, building enterprise-grade, pixel-perfect responsive interfaces using React, TypeScript, and modern web technologies.  I'm passionate about crafting delightful user experiences, building robust design systems, and mentoring development teams. Currently seeking international opportunities to contribute to innovative AI-powered tools and startup environments where individual contributions have massive impact.",
     "ogType": "website",
     "ogSiteName": "MarcosKlender",
     "ogTitle": "Marcos Klender Carrasco",
-    "ogDescription": "Resume and Featured Work!",
+    "ogDescription": "Software Engineer with 8+ years building scalable React applications and design systems!",
     "ogUrl": "https://marcosklender.com",
     "ogImage": "https://marcosklender.com/images/og-img.jpg",
     "location": {
@@ -51,11 +51,11 @@
   "experience": [
     {
       "name": "Consejo Nacional Electoral",
-      "position": "IT Security Analyst",
+      "position": "Senior Frontend Developer",
       "url": "https://cne.gob.ec",
       "startDate": "2019-01-02",
       "endDate": null,
-      "summary": "Experienced IT professional with a proven track record of managing technology infrastructure and supporting mission-critical operations. Skilled in providing technical guidance, training, and remote assistance to staff. Committed to ensuring the reliable functioning of technology systems and enabling efficient workflows."
+      "summary": "Led provincial IT department ensuring 99.9% uptime for critical electoral systems serving thousands of concurrent users during national elections. Delivered comprehensive technical training to 120+ employees, achieving 75% reduction in software misuse incidents. Provided remote support to 200+ election workers, reducing software-related issues by 80% during high-stakes electoral periods. Mentored junior developers and established React development best practices across government systems."
     },
     {
       "name": "iLinser",
@@ -63,7 +63,7 @@
       "url": "https://ilinser.com",
       "startDate": "2020-01-02",
       "endDate": "2024-12-30",
-      "summary": "Accomplished software engineer and entrepreneur with extensive experience in web development, operating systems administration, and consulting. Co-founded this micro-company providing technology solutions and successfully grew the business through innovative web development and user experience improvements."
+      "summary": "Co-founded and led frontend architecture for web development company, establishing coding standards and development workflows. Built reusable UI component libraries and design systems ensuring consistent branding and pixel-perfect implementation across multiple projects. Delivered responsive websites and e-commerce platforms that increased client sales by up to 90% through improved UX and mobile optimization. Implemented performance strategies resulting in 50% improvement in user retention."
     }
   ],
   "featured": [
